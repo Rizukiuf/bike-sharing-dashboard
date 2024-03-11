@@ -16,9 +16,8 @@ max_date = pd.to_datetime(day_df['dteday']).max()
 
 # Sidebar
 with st.sidebar:
-	st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png", width=200)
-	st.title('Bike Sharing Dashboard')
-	st.write('Explore bike sharing data')
+	st.image("https://rizukiuf.github.io/assets/raw/bike-company.png", width=200)
+	st.write('Explore bike sharing data!')
 	st.write('Select a date range to explore the data')
 
 	# Date range input
@@ -83,7 +82,7 @@ def create_agg_hour_season_df(df):
 
 
 # Dashboard title
-st.title('Bike Sharing Dashboard')
+st.title('Bike Sharing Dashboard 🚲')
 
 # Total bike rental
 st.header('Total Bike Rental (Filtered)')
@@ -252,3 +251,7 @@ ax.grid(alpha=0.5)
 ax.legend(title='Season', labels=['Spring', 'Summer', 'Fall', 'Winter'])
 
 st.pyplot(fig)
+
+
+st.markdown('---')
+st.write('© 2024 Rizki Utama Fauzi - All Rights Reserved')

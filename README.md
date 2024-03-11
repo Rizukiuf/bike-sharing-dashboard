@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the final project from the Dicoding course "Belajar Analisis Data dengan Python", aimed at processing, analyzing, and visualizing data from the chosen dataset, and creating a dashboard. I selected the Bike Sharing Dataset for this project. You can refer to the notebook file for the full process and documentation of this project. I utilized Streamlit to develop the dashboard, which you can access via the provided link or directly from here.
+This is the final project from the Dicoding course "Belajar Analisis Data dengan Python", aimed at processing, analyzing, and visualizing data from the chosen dataset, and creating a dashboard. I selected the Bike Sharing Dataset for this project. You can refer to the notebook file for the full process and documentation of this project. I utilized Streamlit to develop the dashboard, which you can access via the provided link or directly from [here](https://bike-sharing-dashboard-rizkiutamafauzi.streamlit.app/).
 
 ## 1. File Project Structure
 ```
@@ -37,8 +37,8 @@ submission
 
 ## 3. Getting Started
 1. Download this project to your local computer.
-2. Open this project folder on your favorite IDE (Here I am using VS Code).
-3. Ensure you have the necessary python environment or interpreter to run this project.
-4. Install required Python libraries for your environment if you haven't already, such as Matplotlib, NumPy, Pandas, Seaborn, and Streamlit.
-5. For `notebook.ipynb`, you can execute the code cells from top to bottom.
-6. For `dashboard/dashboard.py`, you can run the file by opening the terminal and typing `streamlit run dashboard/dashboard.py`, or `streamlit run dashboard.py` if you're already in the dashboard folder.
+2. Open this project folder in your preferred IDE (Here I am using VS Code).
+3. Ensure you have the necessary Python environment or interpreter to run this project.
+4. If you haven't already, install the required Python libraries for your environment, including Matplotlib, NumPy, Pandas, Seaborn, and Streamlit.
+5. For **notebook.ipynb**, you can execute the code cells from top to bottom.
+6. For **dashboard/dashboard.py**, you can run the file by opening the terminal and entering `streamlit run dashboard/dashboard.py`, or `streamlit run dashboard.py` if you're already in the dashboard folder.
